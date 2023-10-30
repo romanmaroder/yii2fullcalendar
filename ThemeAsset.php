@@ -12,11 +12,14 @@ use yii\web\AssetBundle;
 
 class ThemeAsset extends AssetBundle
 {   
-    /**
-     * [$depends description]
-     * @var array
-     */
+     public $sourcePath = '@bower/jquery.ui/dist';
+    public $js = [
+        'jquery-ui.js',
+    ];
+    public $css = [
+        'themes/smoothness/jquery-ui.css',
+    ];
     public $depends = [
-        'yii\jui\JuiAsset'
+        'yii\web\JqueryAsset',
     ];
 }
