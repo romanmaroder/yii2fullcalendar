@@ -20,15 +20,15 @@ class SchedulerAsset extends AssetBundle
      * @var array
      */
     public $js = [
-        '/resource-common/main.js',
-        '/resource-daygrid/main.js',
-        '/resource-timegrid/main.js',
-        '/resource-timeline/main.js',
-        '/timeline/main.js',
+        'resource-common/main.js',
+        'resource-daygrid/main.js',
+        'resource-timegrid/main.js',
+        'resource-timeline/main.js',
+        'timeline/main.js',
     ];
     
     public $css = [
-        '/resource-timeline/main.css',
-        '/timeline/main.css'
+        'resource-timeline/main.css',
+        'timeline/main.css'
     ];
 }
