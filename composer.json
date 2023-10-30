@@ -9,7 +9,7 @@
 	},
 	"require": {
 		"bower-asset/fullcalendar": "6.1.9",
-		"bower-asset/fullcalendar-scheduler" : "6.1.9"
+		"bower-asset/fullcalendar-scheduler" : "6.1.4"
 	},
 	"require-dev": {
 		"codeception/codeception": "*"
