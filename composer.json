@@ -7,7 +7,6 @@
 	"support": {
 		"source": "https://github.com/philippfrenzel/yii2fullcalendar"
 	},
-	"minimum-stability": "stable",
 	"require": {
 		"bower-asset/fullcalendar": "6.1.9",
 		"bower-asset/fullcalendar-scheduler" : "6.1.9"
