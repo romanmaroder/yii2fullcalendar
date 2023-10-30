@@ -23,14 +23,14 @@
         "process-timeout": 1800,
         "fxp-asset": {
             "enabled": false
-        }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ]
+        	}
+    	},
+    	"repositories": [
+        	{
+            	"type": "composer",
+           	 "url": "https://asset-packagist.org"
+        	}
+    	]
 	"conflict": {
 		"bower-asset/fullcalendar": "^4.3.0"
 	},
