@@ -50,7 +50,7 @@ class CoreAsset extends AssetBundle
      */
     public $js = [
         'main.js',        
-        'locale-all.js',
+        'locales-all.js',
     ];
     
     /**
