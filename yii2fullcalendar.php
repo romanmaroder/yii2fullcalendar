@@ -351,4 +351,4 @@ class yii2fullcalendar extends elWidget
 
 }
 
-}
+
