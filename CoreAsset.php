@@ -16,7 +16,7 @@ class CoreAsset extends AssetBundle
      * [$sourcePath description]
      * @var string
      */
-    public $sourcePath = '@bower/fullcalendar/dist/core';
+    public $sourcePath = '@vendor/almasaeed2010/adminlte/plugins/fullcalendar/';
 
     /**
      * the language the calender will be displayed in
@@ -58,8 +58,8 @@ class CoreAsset extends AssetBundle
      * @var array
      */
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii2fullcalendar\PrintAsset'
+        //'yii\web\YiiAsset',
+        //'yii2fullcalendar\PrintAsset'
     ];
 
     /**
@@ -70,7 +70,7 @@ class CoreAsset extends AssetBundle
         $language = $this->language ? $this->language : Yii::$app->language;
         if (strtoupper($language) != 'EN-US') 
         {
-            $this->js[] = "locale/{$language}.js";
+            $this->js[] = "locales/{$language}.js";
         }
 
         if($this->googleCalendar)
